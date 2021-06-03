@@ -25,6 +25,11 @@ body ul {
   padding: 1.5rem 0;
   margin: 0 auto;
 }
+@media (max-width: 425px) {
+  .header {
+    padding: 1.1rem;
+  }
+}
 .header-brand {
   color: #FFF;
   font-size: 3rem;
@@ -34,6 +39,11 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 425px) {
+  .header-navbar ul {
+    display: nome;
+  }
 }
 .header-navbar ul li {
   margin: 0 1rem;
@@ -51,6 +61,11 @@ body ul {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+@media (max-width: 425px) {
+  .header-social-media ul {
+    display: nome;
+  }
 }
 .header-social-media ul li {
   margin: 0 1rem;
@@ -70,6 +85,11 @@ body ul {
   justify-content: space-between;
   padding: 0;
 }
+@media (max-width: 425px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
 .gallery-card {
   width: 31%;
   height: 400px;
@@ -79,6 +99,12 @@ body ul {
   justify-content: center;
   flex-direction: column;
   color: #FFF;
+}
+@media (max-width: 425px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
 }
 .gallery-card-title {
   font-size: 2rem;
@@ -213,6 +239,15 @@ body ul {
   background-size: 110%;
   filter: grayscale(0%);
   background-image: linear-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/refeicoes.jpg");
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+footer span {
+  font-weight: bold;
+  color: #20c997;
 }
 
 /*# sourceMappingURL=styles.css.map */

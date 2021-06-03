@@ -1,4 +1,5 @@
 @use 'variables'
+@use 'mixins'
 
 *
     font-family: 'Josefin Sans'
@@ -21,5 +22,28 @@ body
 .header
     display: flex
     justify-content: space-between
+    @include mixins.container
 
-    
+    &-brand 
+        color: variables.$primary-color
+        font-size: 3rem
+
+    &-navbar
+       
+        ul
+            height: 100%
+            @include mixins.flex-center
+
+        li
+            margin: 0 1rem
+            text-transform: uppercase
+            font-size: .8rem
+
+        .active
+            color: variables.$secondary-color
+
+        a
+            &:hover
+                color: variables.$secondary-color
+
+

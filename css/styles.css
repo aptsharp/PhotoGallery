@@ -52,5 +52,21 @@ body ul {
   justify-content: center;
   height: 100%;
 }
+.header-social-media ul li {
+  margin: 0 1rem;
+}
+.header-social-media ul li a:hover {
+  color: #FFF;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
 
 /*# sourceMappingURL=styles.css.map */

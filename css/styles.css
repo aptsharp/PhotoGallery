@@ -71,9 +71,14 @@ body ul {
   padding: 0;
 }
 .gallery-card {
-  width: 30%;
-  height: 300px;
+  width: 31%;
+  height: 400px;
   margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #FFF;
 }
 .gallery-card-title {
   font-size: 2rem;

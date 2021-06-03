@@ -65,9 +65,12 @@ body
     padding: 0
 
     &-card
-        width: 30%
-        height: 300px
+        width: 31%
+        height: 400px
         margin-bottom: 4%
+        @include mixins.flex-center
+        flex-direction: column
+        color: variables.$primary-color
 
         &-title
             font-size: 2rem
